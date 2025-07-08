@@ -1,0 +1,19 @@
+Recommended Integration URLs for Claude.ai
+Tier 1 (Essential - Install First)
+
+https://smithery.ai/server/toolbox
+https://smithery.ai/server/@ameeralns/DeepResearchMCP
+https://smithery.ai/server/knowledge-graph-memory-server
+https://smithery.ai/server/@smithery-ai/server-sequential-thinking
+Tier 2 (High Priority)
+
+https://smithery.ai/server/browserbase
+https://smithery.ai/server/github
+https://smithery.ai/server/neon-database
+https://smithery.ai/server/google-workspace-server
+Tier 3 (Specialized Use Cases)
+
+https://smithery.ai/server/playwright-automation
+https://smithery.ai/server/desktop-commander
+https://smithery.ai/server/memory-bank
+https://smithery.ai/server/web-research-server

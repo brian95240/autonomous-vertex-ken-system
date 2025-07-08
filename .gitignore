@@ -1,0 +1,337 @@
+# Autonomous Vertex K.E.N. System - Git Ignore File
+
+# =============================================================================
+# SENSITIVE INFORMATION - NEVER COMMIT
+# =============================================================================
+.env
+.env.local
+.env.production
+.env.staging
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
+private/
+*.secret
+
+# =============================================================================
+# OPERATING SYSTEM FILES
+# =============================================================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =============================================================================
+# DEVELOPMENT ENVIRONMENTS
+# =============================================================================
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.metadata
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# =============================================================================
+# PROGRAMMING LANGUAGES
+# =============================================================================
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Rust
+target/
+Cargo.lock
+
+# =============================================================================
+# DATABASES
+# =============================================================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+dump.rdb
+*.rdb
+*.aof
+
+# PostgreSQL
+*.backup
+*.sql.gz
+
+# =============================================================================
+# CONTAINERS & ORCHESTRATION
+# =============================================================================
+# Docker
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# Kubernetes
+*.kubeconfig
+kubeconfig
+.kube/config
+
+# =============================================================================
+# INFRASTRUCTURE AS CODE
+# =============================================================================
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Ansible
+*.retry
+.vault_pass
+
+# =============================================================================
+# MONITORING & LOGGING
+# =============================================================================
+logs/
+*.log
+*.log.*
+log/
+*.out
+*.err
+
+# Grafana
+grafana.db
+grafana.ini
+
+# Prometheus
+prometheus.yml
+alertmanager.yml
+
+# =============================================================================
+# AI/ML SPECIFIC
+# =============================================================================
+# Models
+*.model
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.onnx
+*.pb
+models/
+checkpoints/
+weights/
+
+# Data
+data/
+datasets/
+*.csv
+*.json
+*.parquet
+*.feather
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# =============================================================================
+# BACKUP & TEMPORARY FILES
+# =============================================================================
+*.bak
+*.backup
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.#*
+#*#
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# =============================================================================
+# CACHE & BUILD ARTIFACTS
+# =============================================================================
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vuepress/dist/
+.serverless/
+.fusebox/
+.dynamodb/
+
+# Build outputs
+build/
+dist/
+out/
+target/
+bin/
+obj/
+
+# =============================================================================
+# TESTING
+# =============================================================================
+coverage/
+.nyc_output/
+test-results/
+test-reports/
+.coverage
+htmlcov/
+
+# =============================================================================
+# PACKAGE MANAGERS
+# =============================================================================
+# npm
+package-lock.json
+yarn.lock
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Composer
+vendor/
+composer.lock
+
+# =============================================================================
+# AUTOMATION & WORKFLOWS
+# =============================================================================
+# n8n
+.n8n/
+n8n-data/
+
+# GitHub Actions
+.github/workflows/*.yml.bak
+
+# =============================================================================
+# REVENUE & BUSINESS
+# =============================================================================
+# Financial data
+*.financial
+revenue-data/
+customer-data/
+payment-logs/
+
+# =============================================================================
+# CUSTOM PROJECT SPECIFIC
+# =============================================================================
+# K.E.N. System specific
+ken-cache/
+algorithm-weights/
+performance-logs/
+enhancement-metrics/
+
+# MCP Servers
+mcp-data/
+server-logs/
+
+# Sales Funnel
+funnel-analytics/
+conversion-data/
+customer-profiles/
+
